@@ -4,7 +4,9 @@ const Item = ({ inputText }) => {
   return (
     <div>
       <ul>
-        <h1>{inputText}</h1>
+        <li>
+          <h1>{inputText}</h1>
+        </li>
       </ul>
     </div>
   );

@@ -2,10 +2,12 @@ import React from "react";
 
 import Item from "./Item";
 
-const ItemList = ({ inputText }) => {
+const ItemList = ({ inputText, items }) => {
   return (
     <div>
-      <Item inputText={inputText} />
+      {items.map((item) => (
+        <Item inputText={inputText} />
+      ))}
     </div>
   );
 };

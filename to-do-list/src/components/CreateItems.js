@@ -1,21 +1,29 @@
 import React from "react";
 import { useState } from "react";
 
-const CreateItems = ({ setInputText }) => {
+const CreateItems = ({ inputText, items, setInputText, setItems }) => {
   //Handlers
+
   const inputHandler = (e) => {
     console.log(e.target.value);
     setInputText(e.target.value);
   };
+  const itemsHandler = (e) => {
+    e.preventDefault();
+    setItems([...items, inputText]);
+  };
 
   return (
     <div>
-      <input
-        onChange={inputHandler}
-        type="text"
-        placeholder="ENTER LIST ITEM"
-      />
-      <button>Add Item</button>
+      <form onSubmit={itemsHandler}>
+        <textarea
+          onChange={inputHandler}
+          placeholder="ENTER LIST ITEM"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button>Add Item</button>
+      </form>
     </div>
   );
 };
