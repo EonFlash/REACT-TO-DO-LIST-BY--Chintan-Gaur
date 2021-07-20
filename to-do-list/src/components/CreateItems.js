@@ -11,12 +11,14 @@ const CreateItems = ({ inputText, items, setInputText, setItems }) => {
   const itemsHandler = (e) => {
     e.preventDefault();
     setItems([...items, inputText]);
+    setInputText("");
   };
 
   return (
     <div>
       <form onSubmit={itemsHandler}>
         <textarea
+          value={inputText}
           onChange={inputHandler}
           placeholder="ENTER LIST ITEM"
           cols="30"

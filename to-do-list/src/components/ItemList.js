@@ -6,7 +6,7 @@ const ItemList = ({ inputText, items }) => {
   return (
     <div>
       {items.map((item) => (
-        <Item inputText={inputText} />
+        <Item item={item} />
       ))}
     </div>
   );

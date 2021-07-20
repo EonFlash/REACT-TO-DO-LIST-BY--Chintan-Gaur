@@ -1,11 +1,13 @@
 import React from "react";
 
-const Item = ({ inputText }) => {
+const Item = ({ inputText, item }) => {
   return (
     <div>
       <ul>
         <li>
-          <h1>{inputText}</h1>
+          <h1>{item}</h1>
+          <button>Delete</button>
+          <button>Done</button>
         </li>
       </ul>
     </div>
