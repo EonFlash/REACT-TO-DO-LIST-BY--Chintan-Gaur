@@ -2,11 +2,11 @@ import React from "react";
 
 import Item from "./Item";
 
-const ItemList = ({ inputText, items }) => {
+const ItemList = ({ inputText, items, setItems }) => {
   return (
     <div>
       {items.map((item) => (
-        <Item item={item} />
+        <Item item={item} items={items} setItems={setItems} />
       ))}
     </div>
   );

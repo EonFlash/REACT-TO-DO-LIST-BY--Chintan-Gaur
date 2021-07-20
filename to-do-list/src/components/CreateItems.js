@@ -17,13 +17,12 @@ const CreateItems = ({ inputText, items, setInputText, setItems }) => {
   return (
     <div>
       <form onSubmit={itemsHandler}>
-        <textarea
+        <input
           value={inputText}
           onChange={inputHandler}
+          type="text"
           placeholder="ENTER LIST ITEM"
-          cols="30"
-          rows="10"
-        ></textarea>
+        />
         <button>Add Item</button>
       </form>
     </div>
