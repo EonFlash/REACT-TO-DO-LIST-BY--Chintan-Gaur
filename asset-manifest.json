@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/main.bc5c33e1.chunk.js",
+    "main.js.map": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/main.bc5c33e1.chunk.js.map",
+    "runtime-main.js": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/runtime-main.7a6db476.js",
+    "runtime-main.js.map": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/runtime-main.7a6db476.js.map",
+    "static/js/2.d1744e2c.chunk.js": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/2.d1744e2c.chunk.js",
+    "static/js/2.d1744e2c.chunk.js.map": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/2.d1744e2c.chunk.js.map",
+    "static/js/3.764d4266.chunk.js": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/3.764d4266.chunk.js",
+    "static/js/3.764d4266.chunk.js.map": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/3.764d4266.chunk.js.map",
+    "index.html": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/index.html",
+    "service-worker.js": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/service-worker.js",
+    "service-worker.js.map": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/service-worker.js.map",
+    "static/js/2.d1744e2c.chunk.js.LICENSE.txt": "/REACT-TO-DO-LIST-BY--Chintan-Gaur/static/js/2.d1744e2c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a6db476.js",
+    "static/js/2.d1744e2c.chunk.js",
+    "static/js/main.bc5c33e1.chunk.js"
+  ]
+}
