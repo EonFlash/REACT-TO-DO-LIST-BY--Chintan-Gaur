@@ -26,7 +26,6 @@ function App() {
         setItems={setItems}
       />
       <ItemList inputText={inputText} items={items} setItems={setItems} />
-      <h1>YEEEEEEEEEEEEEEEEEEEEEEEEEE</h1>
     </div>
   );
 }
