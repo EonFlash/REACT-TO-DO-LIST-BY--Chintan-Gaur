@@ -26,6 +26,7 @@ function App() {
         setItems={setItems}
       />
       <ItemList inputText={inputText} items={items} setItems={setItems} />
+      <ItemList inputText={inputText} items={items} setItems={setItems} />
     </div>
   );
 }
