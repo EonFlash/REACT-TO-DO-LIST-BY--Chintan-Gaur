@@ -5,6 +5,9 @@ import { useState } from "react";
 import CreateItems from "./components/CreateItems";
 import ItemList from "./components/ItemList";
 
+//GlobalStyles
+import GlobalStyle from "./components/GlobalStyles";
+
 function App() {
   //States(Uplifted)
   const [inputText, setInputText] = useState("");
@@ -14,7 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>TO DO LIST</h1>
+      <GlobalStyle />
+
       <CreateItems
         setInputText={setInputText}
         inputText={inputText}
