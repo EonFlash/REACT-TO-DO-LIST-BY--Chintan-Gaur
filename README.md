@@ -1,5 +1,5 @@
 # REACT-TO-DO-LIST-BY--Chintan-Gaur
-To do list app made by me without ny assistance
+To do list app 
 
 here is the link
 
